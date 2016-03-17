@@ -65,7 +65,4 @@ function handle_request(request, response){
 		break;
 	}
 	console.log("procedimiento request finalizado")
-}
-
-http.createServer(handle_request).listen(port, "127.0.0.1");
-console.log("iniciando server http node.js en http://127.0.0.1:" + port)
+};
